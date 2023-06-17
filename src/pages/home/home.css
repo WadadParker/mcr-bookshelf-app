@@ -1,8 +1,17 @@
 .book-list-item-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(16rem,32rem));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit,minmax(16rem,auto));
+    gap: 2rem 3rem;
     list-style: none;
     justify-content: center;
     text-align: center;
+}
+.search-button {
+    font-size: 2rem;
+    background-color: black;
+    border:none;
+    border-radius: 1rem;
+    color: white;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
 }
