@@ -1,0 +1,30 @@
+.booklist-container {
+    display: grid;
+    grid-template-areas: 
+        "img"
+        "title"
+        "author"
+    ;
+    width: 15rem;
+    height: fit-content;
+}
+.booklist-container img {
+    grid-area: img;
+    width: 100%;
+    height: 100%;
+    box-shadow: 1px 1px 3px 4px rgb(102, 102, 102);
+}
+.booklist-container strong {
+    grid-area: title;
+    justify-self: start;
+    align-self: center;
+    font-size: 1.4rem;
+    padding-top: 1rem;
+}
+
+.booklist-container small {
+    grid-area: author;
+    justify-self: start;
+    align-self: center;
+    font-size: 1.3rem;
+}
