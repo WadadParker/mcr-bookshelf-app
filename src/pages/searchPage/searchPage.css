@@ -17,3 +17,9 @@
 nav {
     margin: 2rem;
 }
+input {
+    margin:1rem;
+    padding: 1rem;
+    width: 20rem;
+    font-size: 1.4rem;
+}
